@@ -1,4 +1,5 @@
 import React from "react";
+import FoodImg from "../assets/Food.png";
 
 const Herooo = () => {
   return (
@@ -39,7 +40,7 @@ const Herooo = () => {
       <div className="mt-8 md:mt-12 w-full overflow-hidden">
         <div className="flex justify-end">
           <img
-            src="/src/assets/Food.png"
+            src={FoodImg}
             alt="Delicious Food"
             className="
               w-[120%]
@@ -55,6 +56,7 @@ const Herooo = () => {
               md:shadow-lg
             "
           />
+       
         </div>
       </div>
 

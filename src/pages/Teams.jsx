@@ -1,6 +1,9 @@
 import React from "react";
 import GetinTouch from "./GetinTouch";
-
+import chef2Img from '../assets/chef-2.png';
+import ladyImg from '../assets/lady.png';
+import chef4Img from '../assets/chef-4.png';
+import lady2Img from '../assets/lady-2.png';
 const Teams = () => {
   return (
     <section className="bg-[#3f4654] py-20">
@@ -22,10 +25,10 @@ const Teams = () => {
           
           {/* Image */}
           <div className="h-64 overflow-hidden">
-            <img
-              src="/src/assets/lady.png"
-              alt="Cheyenne Workman"
-              className="w-full h-full object-cover bg-black"
+          <img
+         src={ladyImg}
+         alt="Cheyenne Workman"
+         className="w-full h-full object-cover bg-black rounded-xl"
             />
           </div>
 
@@ -49,10 +52,10 @@ const Teams = () => {
         {/* Duplicate card & change image/content */}
         <div className="bg-[#2f3441] rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500 transition">
           <div className="h-64 overflow-hidden">
-            <img
-              src="/src/assets/chef-2.png"
-              alt="Corey Rosser"
-              className="w-full h-full object-cover bg-black"
+         <img
+           src={chef2Img}
+          alt="Corey Rosser"
+         className="w-full h-full object-cover bg-black rounded-xl"
             />
           </div>
           <div className="p-6 text-gray-300">
@@ -67,11 +70,11 @@ const Teams = () => {
 
         <div className="bg-[#2f3441] rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500 transition">
           <div className="h-64 overflow-hidden">
-            <img
-              src="/src/assets/lady-2.png"
-              alt="Marilyn Westervelt"
-              className="w-full h-full object-cover bg-black"
-            />
+           <img
+           src={lady2Img}
+         alt="Marilyn Westervelt"
+               className="w-full h-full object-cover bg-black rounded-xl"
+              />
           </div>
           <div className="p-6 text-gray-300">
             <h2 className="text-lg font-semibold text-white">Marilyn Westervelt</h2>
@@ -85,11 +88,11 @@ const Teams = () => {
 
         <div className="bg-[#2f3441] rounded-2xl overflow-hidden border border-white/10 hover:border-blue-500 transition">
           <div className="h-64 overflow-hidden">
-            <img
-              src="/src/assets/chef-4.png"
-              alt="Ryan Passaquindici Arcand"
-              className="w-full h-full object-cover bg-black"
-            />
+           <img
+       src={chef4Img}
+          alt="Ryan Passaquindici Arcand"
+          className="w-full h-full object-cover bg-black rounded-xl"
+               />
           </div>
           <div className="p-6 text-gray-300">
             <h2 className="text-lg font-semibold text-white">

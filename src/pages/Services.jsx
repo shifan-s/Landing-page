@@ -1,6 +1,9 @@
 import React from 'react'
 import Testimonial from './Testimonial'
-
+import BuffetImg from "../assets/buffet.png";
+import foodDelImg from '../assets/food-del.png';
+import cafeteriaImg from '../assets/cafteria.png';
+import pizzaImg from '../assets/pizza.png';
 const Services = () => {
   return (
     <div className="bg-gray-600 min-h-screen px-4 py-16">
@@ -20,11 +23,11 @@ const Services = () => {
 
         {/* 1st Column */}
         <div className="bg-gray-800 rounded-tl-3xl overflow-hidden flex flex-col">
-          <img 
-            src="/src/assets/buffet.png" 
-            alt="Buffet" 
-            className="w-full h-56 object-cover"
-          />
+         <img
+      src={BuffetImg}
+        alt="Buffet"
+       className="w-full h-56 object-cover"
+           />
           <div className="p-6 flex flex-col flex-1 text-left">
             <h3 className="text-white text-xl mb-3">Buffet Services</h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
@@ -39,11 +42,7 @@ const Services = () => {
 
         {/* 2nd Column */}
         <div className="bg-gray-800 overflow-hidden flex flex-col">
-          <img 
-            src="/src/assets/food-del.png" 
-            alt="Food Delivery" 
-            className="w-full h-56 object-cover"
-          />
+        <img src={foodDelImg} alt="Food Delivery" className="w-full h-56 object-cover" />
           <div className="p-6 flex flex-col flex-1 text-left">
             <h3 className="text-white text-xl mb-3">Food Delivery</h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
@@ -58,11 +57,11 @@ const Services = () => {
 
         {/* 3rd Column */}
         <div className="bg-gray-800 rounded-br-3xl overflow-hidden flex flex-col">
-          <img 
-            src="/src/assets/cafteria.png" 
-            alt="Cafeteria" 
-            className="w-full h-56 object-cover"
-          />
+         <img 
+         src={cafeteriaImg} 
+           alt="Cafeteria" 
+            className="w-full h-56 object-cover rounded-xl"
+             />
           <div className="p-6 flex flex-col flex-1 text-left">
             <h3 className="text-white text-xl mb-3">Cafeteria</h3>
             <p className="text-gray-300 mb-6 leading-relaxed">
@@ -116,11 +115,12 @@ const Services = () => {
 
             {/* RIGHT IMAGE - Hidden on small screens (hidden), shown on large (lg:block) */}
             <div className="hidden lg:block relative mt-10 lg:mt-3 lg:ml-auto">
-              <img
-                src="/src/assets/pizza.png"
-                alt="Pizza"
-                className="w-[310px] md:w-[380px] lg:w-[420px] translate-x-6"
-              />
+           
+           <img
+             src={pizzaImg}
+              alt="Pizza"
+             className="w-[310px] md:w-[380px] lg:w-[420px] translate-x-6 object-cover rounded-xl"
+             />
             </div>
           </div>
         </div>
