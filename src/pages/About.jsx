@@ -33,7 +33,10 @@ const About = () => {
         <img
           src="/src/assets/about.png"
           alt="About Us"
-          className="w-full h-auto rounded-lg shadow-lg object-cover"
+         
+        />
+        <img src={About.png} alt="Delicious Food" 
+         className="w-full h-auto rounded-lg shadow-lg object-cover"
         />
 
         {/* Stats Box */}
