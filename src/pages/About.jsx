@@ -30,11 +30,6 @@ const About = () => {
       <div className="relative mt-16 w-full max-w-6xl">
 
         {/* Image */}
-        <img
-          src="/src/assets/about.png"
-          alt="About Us"
-         
-        />
         <img src={About.png} alt="Delicious Food" 
          className="w-full h-auto rounded-lg shadow-lg object-cover"
         />
