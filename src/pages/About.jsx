@@ -1,15 +1,15 @@
 import React from "react";
 import { UserSwitchOutlined, MenuFoldOutlined, StarOutlined } from "@ant-design/icons";
 import aboutImg from "../assets/About.png"; // <-- import your image
+ 
+  const About = () => {
+    return (
+      <div className="bg-black min-h-screen flex flex-col items-center px-4 py-16">
+          {/* TOP CONTENT */}
+           <div className="max-w-4xl flex flex-col items-center text-center">
+             <h1 className="text-gray-200 font-bold text-4xl md:text-5xl mb-6">About Us</h1>
 
-const About = () => {
-  return (
-    <div className="bg-black min-h-screen flex flex-col items-center px-4 py-16">
-      {/* TOP CONTENT */}
-      <div className="max-w-4xl flex flex-col items-center text-center">
-        <h1 className="text-gray-200 font-bold text-4xl md:text-5xl mb-6">About Us</h1>
-
-        <p className="text-gray-300 text-lg md:text-xl leading-relaxed max-w-4xl mb-8 indent-4">
+              <p className="text-gray-300 text-lg md:text-xl leading-relaxed max-w-4xl mb-8 indent-4">
           Our achievement story stands as a powerful testament to teamwork and perseverance.
           United, we have faced challenges, celebrated victories, and woven a narrative of
           growth and success.
@@ -24,7 +24,7 @@ const About = () => {
       <div className="relative mt-16 w-full max-w-6xl">
         {/* Image */}
         <img
-          src={aboutImg} // <-- use imported image
+          src={aboutImg}
           alt="Delicious Food"
           className="w-full h-auto rounded-lg shadow-lg object-cover"
         />
