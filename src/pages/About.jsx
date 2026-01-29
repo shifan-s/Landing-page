@@ -32,7 +32,7 @@ const About = () => {
         {/* Image */}
         <img src={About.png} alt="Delicious Food" 
          className="w-full h-auto rounded-lg shadow-lg object-cover"
-        />
+         />
 
         {/* Stats Box */}
         <div
