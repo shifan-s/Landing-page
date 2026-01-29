@@ -1,6 +1,6 @@
 import React from "react";
 import { UserSwitchOutlined, MenuFoldOutlined, StarOutlined } from "@ant-design/icons";
-import aboutImg from "../assets/About.png"; // <-- import your image
+import aboutImg from "../assets/About.png";
  
   const About = () => {
     return (
