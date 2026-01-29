@@ -6,7 +6,7 @@ const Herooo = () => {
     <section className="bg-gray-600 flex flex-col items-center justify-center px-4 min-h-[calc(85vh-80px)] py-12 md:py-16 overflow-hidden">
       
       {/* Badge */}
-      <div className="mt-8 md:mt-36">
+      <div className="mt-8 ">
         <h4 className="bg-black text-gray-400 px-6 py-3 rounded-full text-lg text-center">
           Serving food lovers since 2006 ❤️
         </h4>
