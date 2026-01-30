@@ -1,5 +1,4 @@
 
-import Heroo from '../pages/Heroo'
 import Herooo from '../pages/Herooo'
 import About from '../pages/About'
 import Services from '../pages/Services'
@@ -10,13 +9,9 @@ const Home = () => {
     <div>
            
             <Herooo/>
-            <About/>
-        
-
-        
+            <About/>      
             <Services/>
             <Teams/>
-
             <FaqS/>
 
 
