@@ -1,47 +1,50 @@
 @import "tailwindcss";
 
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@300;400;500&display=swap');
 
-
-/* 2️⃣ Google Fonts (ALL fonts here) */
-@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=Cinzel+Decorative:wght@400;700;900&family=Cossette+Texte:wght@400;700&family=Exo+2:ital,wght@0,100..900;1,100..900&family=Exo:ital,wght@0,100..900;1,100..900&family=Fjalla+One&family=Hind+Mysuru:wght@300;400;500;600;700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&family=Manrope:wght@200..800&family=Momo+Trust+Display&family=National+Park:wght@200..800&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Open+Sans:wght@300..800&family=Outfit:wght@100..900&family=Palanquin+Dark:wght@400;500;600;700&family=Playwrite+IN+Guides&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Scope+One&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
-
-/* 3️⃣ Global default font (applies EVERYWHERE) */
 @layer base {
+  /* 🌍 Global standard font */
   html {
-    font-family: "Inter", "Open Sans", sans-serif;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
   }
 
-  /* Headings */
+  body {
+    @apply text-gray-800;
+  }
+
+  /* 🔥 Stylish PRIMARY font */
   h1 {
-    @apply text-4xl md:text-[4.5rem] font-bold;
-    font-family: "Playwrite IN Guides", cursive;
+    font-family: "DM Serif Display", serif;
+    @apply text-4xl md:text-6xl tracking-tight;
   }
 
+  /* ✨ Clean & stylish, no heavy weight */
   h2 {
-    @apply text-3xl md:text-[4rem];
-    font-family: "Playwrite IN Guides", cursive;
+    @apply text-3xl md:text-5xl tracking-wide;
   }
 
   h3 {
-    @apply text-2xl md:text-[3.5rem] font-semibold;
+    @apply text-2xl md:text-4xl;
   }
 
   h4 {
-    @apply text-xl font-medium;
+    @apply text-xl md:text-2xl;
   }
 
   h5 {
-    @apply text-lg font-medium;
+    @apply text-lg;
   }
 
-  /* Text */
+  /* 📝 Body text */
   p {
-    @apply text-base leading-relaxed;
+    @apply text-base md:text-lg leading-relaxed;
   }
 
   li,
   a,
   span {
-    @apply text-base;
+    @apply text-sm md:text-base;
   }
 }

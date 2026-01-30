@@ -59,7 +59,7 @@ const Teams = () => {
             />
           </div>
           <div className="p-6 text-gray-300">
-            <h2 className="text-lg font-semibold text-white">Corey Rosser</h2>
+            <h2 className="text-lg  text-white">Corey Rosser</h2>
             <div className="w-96 h-1 bg-gray-400 my-3 rounded-fulll"></div>
             <h3 className="text-xl   mb-2">Kitchen Manager</h3>
             <p className="text-sm">
@@ -77,7 +77,7 @@ const Teams = () => {
               />
           </div>
           <div className="p-6 text-gray-300">
-            <h2 className="text-lg font-semibold text-white">Marilyn Westervelt</h2>
+            <h2 className="text-lg  text-white">Marilyn Westervelt</h2>
             <div className="w-96 h-1 bg-gray-400 my-3 rounded-full"></div>
             <h3 className="text-xl mb-2">Sous Chef</h3>
             <p className="text-sm">
@@ -95,7 +95,7 @@ const Teams = () => {
                />
           </div>
           <div className="p-6 text-gray-300">
-            <h2 className="text-lg font-semibold text-white">
+            <h2 className="text-lg  text-white">
               Ryan Passaquindici
             </h2>
             <div className="w-96 h-1 bg-gray-400 my-3 rounded-full"></div>
