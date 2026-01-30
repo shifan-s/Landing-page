@@ -1,6 +1,6 @@
 
 import Herooo from '../pages/Herooo'
-import About from '../pages/About'
+import AboutPreview from './AboutPreview'
 import Services from '../pages/Services'
 import Teams from '../pages/Teams'
 import FaqS from '../pages/FaqS'
@@ -9,7 +9,7 @@ const Home = () => {
     <div>
            
             <Herooo/>
-            <About/>      
+            <AboutPreview/>      
             <Services/>
             <Teams/>
             <FaqS/>

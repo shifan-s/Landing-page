@@ -38,7 +38,7 @@ const Heroo = () => {
       </nav>
 
       {/* UNDERLINE */}
-      <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-blue-400 to-transparent"></div>
+      <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-blue-600 to-transparent"></div>
 
     </header>
   );
